@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1059193713005",
+    "project_id": "codeiq-9976b",
+    "storage_bucket": "codeiq-9976b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1059193713005:android:4128c9b93c96479aa86a64",
+        "android_client_info": {
+          "package_name": "com.example.codeiq"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7s6hOkgwFXKF86SZWZsbKJSTnd4OvDWs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

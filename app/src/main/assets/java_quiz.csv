@@ -1,0 +1,21 @@
+Question,Option1,Option2,Option3,Option4,CorrectIndex
+Who invented Java?,Dennis Ritchie,Bjarne Stroustrup,James Gosling,Guido van Rossum,3
+What is the extension of a compiled Java class file?,.class,.java,.exe,.obj,1
+Which keyword is used to define a class in Java?,class,define,struct,module,1
+Java is a ___ language.,Interpreted,Assembly,Compiled and Interpreted,Machine-dependent,3
+What is the size of an `int` in Java?,16 bytes,2 bytes,4 bytes,8 bytes,3
+Which of the following is a valid `char` in Java?,"""A""",'A','Java',10,2
+What is the default value of a `boolean` variable in Java?,true,false,1,0,2
+"What will `System.out.println(10 + ""10"");` output?",Compilation error,1010,10+10,20,2
+Which operator is used to compare values in Java?,!=,0,0,0,2
+What is the result of `5 / 2` in Java?,2,3,5,2.5,1
+What is the keyword to start a loop in Java?,loop,for,repeat,doWhile,2
+How many times will this loop execute? `for (int i = 0; i < 3; i++) { System.out.println(i); }`,1,2,3,Infinite,3
+Which statement is used to exit a loop?,return,exit,stop,break,4
+"What will be the output of `System.out.println(5 > 3 ? ""Yes"" : ""No"");`?",No,Yes,Compilation error,None,2
+Which loop is guaranteed to execute at least once?,for loop,while loop,do-while loop,Infinite loop,3
+What is the correct syntax to declare a method in Java?,returnType methodName(),(methodName) returnType,returnType (methodName),methodName() returnType,1
+What is an object in Java?,A function,An instance of a class,A class definition,A data type,2
+Which keyword is used to create an object?,create,class,new,object,3
+What is the parent class of all Java classes?,Object,ParentClass,BaseClass,JavaClass,1
+Which keyword is used to inherit a class?,extends,parent,implements,inherit,1

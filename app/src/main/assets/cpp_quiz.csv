@@ -1,0 +1,21 @@
+Question,Option1,Option2,Option3,Option4,CorrectIndex
+Who developed C++?,Dennis Ritchie,Bjarne Stroustrup,James Gosling,Guido van Rossum,2
+What is the file extension for a C++ source file?,.c,.cpp,.java,.py,2
+Which keyword is used to define a class in C++?,class,struct,object,define,1
+C++ is a ___ language?,Procedural,Object-Oriented,Functional,Scripting,2
+What is the default access specifier in a class?,private,public,protected,static,1
+Which operator is used for dynamic memory allocation?,malloc,new,alloc,calloc,2
+What will `sizeof(int)` return (typically)?,2,4,8,16,2
+Which of the following is NOT a feature of C++?,Encapsulation,Inheritance,Garbage Collection,Polymorphism,3
+What is the correct way to declare a pointer in C++?,int ptr;,int *ptr;,int &ptr;,ptr int;,2
+Which of the following is NOT a valid loop in C++?,for,while,foreach,do-while,3
+How do you comment a single line in C++?,/* comment */,// comment,# comment,-- comment,2
+Which of the following data types is NOT standard in C++?,int,float,string,boolean,3
+What is the output of `5 / 2` in C++ (assuming int division)?,2.5,2,3,5,2
+How do you define a constant variable in C++?,#define,const,final,static,2
+Which header file is required for input-output operations in C++?,stdio.h,iostream,conio.h,string.h,2
+What is the correct syntax to read user input in C++?,cin >> x;,input(x);,"scanf('%d', &x);",x = read();,1
+Which C++ feature allows the same function to have different implementations?,Encapsulation,Inheritance,Polymorphism,Abstraction,3
+Which keyword is used to handle exceptions in C++?,error,try,catch,throw,2
+Which operator is used to access members of a class using an object?,.,->,::,&,1
+What is the return type of a constructor?,int,void,ClassName,No return type,4

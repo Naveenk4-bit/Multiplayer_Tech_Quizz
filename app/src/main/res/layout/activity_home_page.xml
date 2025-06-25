@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_2"
+    tools:context=".MainActivity">
+
+    <!-- Menu Icon -->
+    <ImageButton
+        android:id="@+id/button_menu"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/baseline_density_medium_24"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Menu"
+        android:layout_margin="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"/>
+
+    <!-- Label for Name -->
+    <TextView
+        android:id="@+id/label_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Name"
+        android:textColor="#10E3FF"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true" />
+
+    <!-- Name Entry TextBox -->
+    <EditText
+        android:id="@+id/textbox_name"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/label_name"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/edit_text_background"
+        android:hint="Enter Your Name"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_marginTop="10dp" />
+
+    <!-- Label for PIN -->
+    <TextView
+        android:id="@+id/label_pin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter PIN"
+        android:textColor="#10E3FF"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:layout_below="@id/textbox_name"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
+
+    <!-- PIN Entry TextBox -->
+    <EditText
+        android:id="@+id/textbox_pin"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/label_pin"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/edit_text_background"
+        android:hint="Enter PIN"
+        android:inputType="number"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_marginTop="10dp" />
+
+    <!-- Join Button -->
+    <Button
+        android:id="@+id/button_join"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="Join"
+        android:backgroundTint="#000000"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_below="@id/textbox_pin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <!-- Create Button -->
+    <Button
+        android:id="@+id/button_create"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Create"
+        android:backgroundTint="#9B0000"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_below="@id/button_join"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+    <!-- Generate Button -->
+    <Button
+        android:id="@+id/button_generate"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Generate"
+        android:backgroundTint="#146102"
+        android:textColor="#F2F0F0"
+        android:textSize="18sp"
+        android:layout_below="@id/button_create"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <!-- Upload Button -->
+    <Button
+        android:id="@+id/button_upload"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Upload"
+        android:backgroundTint="#0057D9"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_below="@id/button_generate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+</RelativeLayout>

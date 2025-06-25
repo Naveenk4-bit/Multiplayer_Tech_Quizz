@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:background="@drawable/bg_2"
+        tools:context=".Create_page">
+
+        <!-- Title for Create Quiz Page -->
+        <TextView
+            android:id="@+id/tv_create_quiz_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Quiz"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+        <!-- Input for Question -->
+        <EditText
+            android:id="@+id/et_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="Enter your question"
+            android:background="@drawable/edit_text_background"
+            android:layout_below="@id/tv_create_quiz_title"
+            android:layout_marginTop="30dp"
+            android:padding="10dp"
+            android:textColor="#000000" />
+
+        <!-- Input for Answer Option 1 -->
+        <EditText
+            android:id="@+id/et_answer_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="Answer Option 1"
+            android:background="@drawable/edit_text_background"
+            android:layout_below="@id/et_question"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:textColor="#000000" />
+
+        <!-- Input for Answer Option 2 -->
+        <EditText
+            android:id="@+id/et_answer_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="Answer Option 2"
+            android:background="@drawable/edit_text_background"
+            android:layout_below="@id/et_answer_1"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:textColor="#000000" />
+
+        <!-- Input for Answer Option 3 -->
+        <EditText
+            android:id="@+id/et_answer_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="Answer Option 3"
+            android:background="@drawable/edit_text_background"
+            android:layout_below="@id/et_answer_2"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:textColor="#000000" />
+
+        <!-- Input for Answer Option 4 -->
+        <EditText
+            android:id="@+id/et_answer_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="Answer Option 4"
+            android:background="@drawable/edit_text_background"
+            android:layout_below="@id/et_answer_3"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:textColor="#000000" />
+
+        <!-- Dropdown for Correct Answer -->
+        <Spinner
+            android:id="@+id/spinner_correct_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:layout_below="@id/et_answer_4"
+            android:layout_marginTop="20dp" />
+
+        <!-- Button to Add Question -->
+        <Button
+            android:id="@+id/btn_add_question"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Add Question"
+            android:backgroundTint="#146102"
+            android:textColor="#F2F0F0"
+            android:textSize="18sp"
+            android:layout_below="@id/spinner_correct_answer"
+            android:layout_marginTop="30dp" />
+
+        <!-- Button to Save Quiz -->
+        <Button
+            android:id="@+id/btn_save_quiz"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Save Quiz"
+            android:backgroundTint="#9B0000"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_below="@id/btn_add_question"
+            android:layout_marginTop="30dp" />
+
+    </RelativeLayout>
+
+
+
+

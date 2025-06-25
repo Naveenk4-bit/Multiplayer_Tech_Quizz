@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="@drawable/bg_2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose your Topic"
+        android:textSize="22sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:paddingBottom="20dp" />
+
+    <Button
+        android:id="@+id/btn_java"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Java"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="12dp"
+        android:padding="12dp"
+        android:backgroundTint="#FF5722" /> <!-- Orange Shade -->
+
+    <Button
+        android:id="@+id/btn_python"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Python"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="12dp"
+        android:padding="12dp"
+        android:backgroundTint="#4CAF50" /> <!-- Green Shade -->
+
+    <Button
+        android:id="@+id/btn_c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="12dp"
+        android:padding="12dp"
+        android:backgroundTint="#2196F3" /> <!-- Blue Shade -->
+
+    <Button
+        android:id="@+id/btn_cpp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C++"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:backgroundTint="#9C27B0" /> <!-- Purple Shade -->
+
+</LinearLayout>

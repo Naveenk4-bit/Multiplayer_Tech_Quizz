@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_2"
+    tools:context=".UploadActivity">
+
+    <!-- Upload Button (Slightly Moved Left) -->
+    <Button
+        android:id="@+id/button_upload_file"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:text="Upload File"
+        android:backgroundTint="#FF9800"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_centerHorizontal="false" />
+
+    <!-- Help Button (Red Color, Properly Visible Text) -->
+    <Button
+        android:id="@+id/button_help"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="HELP"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:backgroundTint="#FF0000"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@id/button_upload_file"
+        android:layout_marginStart="10dp"/>
+
+    <!-- White Background Container for Displaying Questions -->
+    <LinearLayout
+        android:id="@+id/question_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/button_upload_file"
+        android:layout_above="@id/button_save"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@android:color/white"
+        android:padding="10dp"
+        android:elevation="4dp"
+        android:radius="8dp"
+        android:orientation="vertical">
+
+        <!-- Display Uploaded Questions -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_questions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:padding="10dp"/>
+    </LinearLayout>
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Save"
+        android:backgroundTint="#146102"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:layout_centerHorizontal="true" />
+
+    <!-- Start Button -->
+    <Button
+        android:id="@+id/button_start_quiz"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Start Quiz"
+        android:backgroundTint="#9B0000"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

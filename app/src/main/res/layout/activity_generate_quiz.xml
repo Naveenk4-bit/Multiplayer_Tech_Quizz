@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_2"
+    tools:context=".GenerateQuizActivity">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/title_generate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generated Quiz Questions"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true" />
+
+    <!-- ScrollView for Questions -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/title_generate"
+        android:layout_above="@id/btn_save_quiz"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:id="@+id/question_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@android:color/white"
+            android:layout_margin="10dp"
+            android:elevation="4dp"
+            android:radius="8dp">
+
+            <!-- RecyclerView for Displaying Questions -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView_questions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                tools:listitem="@layout/item_question"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Save Quiz Button -->
+    <Button
+        android:id="@+id/btn_save_quiz"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Save Quiz"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"/>
+</RelativeLayout>

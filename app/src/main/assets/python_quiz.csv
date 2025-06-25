@@ -1,0 +1,21 @@
+Question,Option1,Option2,Option3,Option4,CorrectIndex
+What is the correct way to declare a variable in Python?,int x = 10,x := 10,x = 10,var x = 10,3
+Which of the following is used to take user input in Python?,scanf(),cin,input(),readline(),3
+What will be the output of print(2**3)?,6,8,5,9,2
+How do you define a function in Python?,function myFunc():,def myFunc():,define myFunc():,func myFunc():,2
+What will print(type([])) output?,<class 'tuple'>,<class 'list'>,<class 'dict'>,<class 'set'>,1
+What is the correct way to open a file for reading?,"file = open('data.txt', 'r')","file = open('data.txt', 'w')","file = open('data.txt', 'rw')",file = open('data.txt'),1
+What will be the output of bool([])?,True,False,None,Error,2
+What does len('Python') return?,5,6,7,Error,2
+What is the correct way to create a list in Python?,"list = {1, 2, 3}","list = (1, 2, 3)","list = [1, 2, 3]","list = <1, 2, 3>",3
+What keyword is used to exit a loop early?,stop,break,exit,return,2
+What is the result of 3 // 2 in Python?,1.5,1,2,0,2
+What will print('hello' * 3) output?,hello hello hello,hellohellohello,Error,None,2
+How do you create an empty dictionary in Python?,dict = [],dict = {},dict = (),dict = empty(),2
+What is the default return value of a function that doesn’t explicitly return anything?,0,None,'',Error,2
+What does list(range(5)) return?,"[1, 2, 3, 4, 5]","[0, 1, 2, 3, 4]","[0, 1, 2, 3, 4, 5]",Error,2
+Which of the following data types is immutable?,list,dictionary,set,tuple,4
+What will print('5' + '5') output?,10,55,Error,None,2
+Which of the following is not a valid Python variable name?,my_var,2variable,_myVar,myVar2,2
+What will print(type(None)) output?,<class 'null'>,<class 'None'>,<class 'NoneType'>,None,3
+What is the output of print(10 % 3)?,3,1,0,10,2
